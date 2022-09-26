@@ -22,7 +22,7 @@
   },
   "homepage": "https://tetracalibers.github.io/polym-a11y",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "types": "./types/index.d.ts",
   "files": [
