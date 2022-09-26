@@ -17,5 +17,6 @@ export default defineConfig({
     rollupOptions: {
       external: ['react', 'react-dom']
     }
-  }
+  },
+  base: '/a11y/'
 })
