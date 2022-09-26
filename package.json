@@ -38,7 +38,7 @@
     "lintfix": "npm run lint -- --fix",
     "format": "prettier --write \"**/*.+(js|json|yml|ts|tsx)\"",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -s src/stories/assets",
+    "build-storybook": "build-storybook",
     "deploy-story": "vite-node ./script/deploy.zx.ts"
   },
   "peerDependencies": {

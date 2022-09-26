@@ -18,5 +18,5 @@ export default defineConfig({
       external: ['react', 'react-dom']
     }
   },
-  base: '/a11y/'
+  base: '/polym-a11y/'
 })

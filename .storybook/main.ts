@@ -26,12 +26,8 @@ module.exports = {
     storyStoreV7: true
   },
   async viteFinal(config, { configType }) {
-    const { config: userConfig } = await loadConfigFromFile(
-      path.resolve(__dirname, '../vite.config.ts')
-    )
-
     return mergeConfig(config, {
-      ...userConfig,
+      base: '/polym-a11y/',
       // manually specify plugins to avoid conflict
       plugins: []
     })

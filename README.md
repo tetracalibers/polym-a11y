@@ -18,6 +18,8 @@ yarn add @polym/a11y
 
 **Containers for elements that are visually obscured and whose presence is communicated only to the screen reader**
 
+[Click here for full documentation and demo](https://tetracalibers.github.io/polym-a11y/?path=/docs/visuallyhidden-document--page)
+
 ### Usecase
 
 ```ts
