@@ -15,7 +15,7 @@ export default defineConfig({
       fileName: (format) => `polym-a11y.${format}.js`
     },
     rollupOptions: {
-      external: ['react', 'react-dom']
+      external: ['react', 'react-dom', 'styled-components']
     }
   },
   base: '/polym-a11y/'
